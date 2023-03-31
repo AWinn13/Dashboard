@@ -50,11 +50,11 @@ const WeatherAPI = () => {
           <Grid
             item
             xs={12}
-            sx={{ display: 'flex', justifyContent: 'space-between' }}
+            sx={{ textAlign: 'center'}}
           >
-            <div style={{paddingRight:'3px'}}>Conditions:{''} </div>
+            
             {weatherData.main ? (
-              <p>{weatherData.weather[0].main}</p>
+              <p>{weatherData.weather[0].description}</p>
             ) : null}{' '}
           </Grid>
           <Grid item sx={{ display: 'flex', justifyContent: 'space-between' }}>

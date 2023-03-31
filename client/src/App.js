@@ -3,11 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { googleLogout, useGoogleLogin } from '@react-oauth/google';
 import axios from 'axios';
 import Main from './views/Main';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline'
-import { Switch } from '@mui/material';
-import { DndProvider } from 'react-dnd';
-import { HTML5Backend } from 'react-dnd-html5-backend';
+
+
 
 
 
@@ -50,10 +47,7 @@ function App() {
 
   return (
     <div>
-      <div>
-        </div>
       <Main />
-
     </div>
   );
 }

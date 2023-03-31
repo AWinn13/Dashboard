@@ -42,10 +42,10 @@ export default () => {
         {profile ? (
                 <div style={{display:'flex', justifyContent:'space-between', width:'350px', alignItems:'center'}}>
                     <Typography>Welcome Back, {profile.name}!</Typography>
-                    <Button variant='outlined' onClick={logOut}>Log out</Button>
+                    <Button color='secondary'variant='contained' onClick={logOut}>Log out</Button>
                 </div>
             ) : (
-                <Button  variant='outlined' onClick={() => login()}> Sign In With <GoogleIcon/>  </Button>
+                <Button  color='secondary' variant='contained' onClick={() => login()}> Sign In With <GoogleIcon/>  </Button>
             )}
         </div>
   )
