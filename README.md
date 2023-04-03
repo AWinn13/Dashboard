@@ -4,7 +4,7 @@ Daily Dash is a React app that provides users with a productivity dashboard wher
 
 ## Installation
 
-Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install Daily Das.
+Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install) to install Daily Dash.
 
 ```bash
 npm i
