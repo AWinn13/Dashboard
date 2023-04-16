@@ -8,6 +8,7 @@ Use the package manager [npm](https://docs.npmjs.com/cli/v8/commands/npm-install
 
 ```bash
 npm i
+npm run dev
 ```
 
 ## Technologies Used
